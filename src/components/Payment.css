@@ -1,0 +1,613 @@
+/* Payment.css */
+
+.main-div {
+   margin-left: 632px;
+    margin-top: -391px;
+    height: 450px;
+    width: 450px;
+}
+
+.firstclass {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* ProgressBar.css */
+
+.progressBar {
+	margin-top: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.stage1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon1 {
+    width: 40px;
+    height: 40px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.text12 {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+
+/* for second*/
+
+.second{
+	margin-top:4px;
+  	width: 100%;
+  	position: relative;
+  	font-size: 24px;
+  	line-height: 125.3%;
+  	font-weight: 600;
+  	color: #3c4852;
+  	text-align: center;
+  	display: inline-block;
+}
+
+
+/* for expiry*/
+
+/* TextField1.module.css */
+
+.textField11 {
+	margin-top: 4px;
+    width: 100%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #e7e7e7;
+    border: 2px solid #bebebe;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    text-align: center;
+    font-size: 16px;
+    color: #bebebe;
+    font-family: Roboto;
+}
+
+.radioButtonIcon1 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 0;
+}
+
+.textContainer1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.text5 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.rightTextContainer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.text6 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 27px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+.text7 {
+    position: relative;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.topText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.text8 {
+    position: relative;
+    line-height: 120%;
+}
+
+.text9 {
+    position: relative;
+    font-size: 10px;
+    line-height: 120%;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 12px;
+    flex-shrink: 0;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 8px;
+}
+
+.offerExpired {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    line-height: 120%;
+    font-weight: 500;
+}
+
+.tago{
+    position: absolute;
+    margin: 0 !important;
+    top: 0px;
+    left: 62px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: #f77171;
+    width: 121px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 2;
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/*for 12*/
+
+.radioButtonIcon1 {
+  	position: relative;
+  	width: 32px;
+  	height: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 0;
+}
+.text5 {
+  	position: relative;
+  	line-height: 120%;
+  	font-weight: 600;
+}
+.text6 {
+  	position: relative;
+  	line-height: 120%;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 27px;
+  	height: 16px;
+  	flex-shrink: 0;
+}
+.text7 {
+  	position: relative;
+  	font-size: 16px;
+  	line-height: 120%;
+  	font-weight: 600;
+}
+.topText {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+  	gap: 8px;
+}
+.text8 {
+  	position: relative;
+  	line-height: 120%;
+}
+.text9 {
+  	position: relative;
+  	font-size: 10px;
+  	line-height: 120%;
+  	font-weight: 500;
+  	color: #bebebe;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	width: 19px;
+  	height: 12px;
+  	flex-shrink: 0;
+}
+.bottomTet {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-end;
+  	justify-content: center;
+  	gap: 8px;
+}
+.rightTextContainer1 {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-end;
+  	justify-content: flex-start;
+  	font-size: 12px;
+}
+.textContainer1 {
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	z-index: 1;
+}
+.recommended {
+  	position: absolute;
+  	top: 1px;
+  	left: 25px;
+  	line-height: 120%;
+  	font-weight: 500;
+}
+.tag {
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 62px;
+  	border-radius: 0px 0px 4px 4px;
+  	background-color: #47ba68;
+  	width: 121px;
+  	height: 16px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 2;
+  	font-size: 12px;
+  	color: #fff;
+}
+.textField21 {
+  	width: 100%;
+  	position: relative;
+  	border-radius: 4px;
+  	background-color: #d7eddd;
+  	border: 2px solid;
+  	box-sizing: border-box;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 16px;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #3c4852;
+  	font-family: Roboto;
+}
+
+
+
+
+/*for 6 month*/
+
+/* TextField3.module.css */
+
+/* Radio button icon */
+.radioButtonIcon1 {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+/* Text styling */
+.text5 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+/* Total text */
+.text6 {
+  position: relative;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 27px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+/* Price */
+.text7 {
+  position: relative;
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: 600;
+}
+
+/* Top text container */
+.topText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+/* Subtotal text */
+.text8 {
+  position: relative;
+  line-height: 120%;
+}
+
+/* Price per month */
+.text9 {
+  position: relative;
+  font-size: 10px;
+  line-height: 120%;
+  font-weight: 500;
+  color: #bebebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+/* Bottom text container */
+.bottomText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* Left text container */
+.leftTextContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: 12px;
+}
+
+/* Main container */
+.textContainer1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Main component container */
+.textField31 {
+  width: 100%;
+  position: relative;
+  border-radius: 4px;
+  border: 2px solid #bebebe;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  text-align: center;
+  font-size: 16px;
+  color: #3c4852;
+  font-family: Roboto, sans-serif;
+}
+
+
+
+
+/*total payment*/
+
+/* SummaryContainer.module.css */
+
+/* Container for the summary */
+.summaryContainer1 {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 16px;
+  color: #3c4852;
+  font-family: Roboto, sans-serif;
+}
+
+/* Header for the subscription fee */
+.alertHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Subscription fee text */
+.text5 {
+  font-weight: bold;
+}
+
+/* Amount for subscription fee */
+.text6 {
+  font-weight: bold;
+  color: #0096ff;
+}
+
+/* Alert box */
+.alert {
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid red;
+  padding: 16px;
+}
+
+/* Alert header */
+.alertHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+/* Limited time offer text */
+.text7 {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+/* Amount for limited time offer */
+.text8 {
+  font-weight: bold;
+  color: #ff6b6b;
+}
+
+/* Alert body */
+.alertBody {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Clock icon */
+.iconClock1 {
+  width: 20px;
+  height: 20px;
+}
+
+/* Text below clock icon */
+.text5 {
+  font-size: 14px;
+  color: #9b9b9b;
+}
+
+/* Total section */
+.total {
+  font-weight: bold;
+}
+
+/* Right-aligned text */
+.rightText1 {
+  font-weight: bold;
+  color: #0096ff;
+}
+/*//last button*/
+.lastbutton {
+  	position: relative;
+  	text-transform: uppercase;
+}
+.secondaryButton {
+	margin-top: 4px;
+  	flex: 1;
+  	width: 100%;
+  	position: relative;
+  	border-radius: 4px;
+  	border: 2px solid #f77171;
+  	box-sizing: border-box;
+  	height: 56px;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 10px 42px;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #f77171;
+  	font-family: Roboto;
+}
+
+
+.lastbutton{
+  	position: relative;
+  	text-transform: uppercase;
+}
+.primaryButton {
+	margin-top: 3px;
+  	flex: 1;
+  	width: 100%;
+  	position: relative;
+  	border-radius: 4px;
+  	background-color: #47ba68;
+  	height: 56px;
+  	display: flex;
+  	flex-direction: row;
+  	padding: 10px 42px;
+  	box-sizing: border-box;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 16px;
+  	color: #fff;
+  	font-family: Roboto;
+}
+
+
+
+.razorpayIconChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 120px;
+  	height: 42.69px;
+  	object-fit: cover;
+}
+.razorpayIcon {
+  	position: relative;
+  	width: 120px;
+  	height: 42.69px;
+}
+.iconContainer1 {
+	margin-top: 5px;
+  	width: 100%;
+  	position: relative;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+
+
+.allbutton{
+  display: flex;
+  flex-direction: space-between;
+}

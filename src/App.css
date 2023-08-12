@@ -1,38 +1,390 @@
-.App {
-  text-align: center;
+body, h1, h2, h3, p, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Styling for the Navbar */
+.coding-assignment {
+  background-color: #f5f5f5;
+}
+
+.nav-bar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.left-content {
+  gap: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 20px;
+}
+
+.edyoda {
+  color: #0096FF;
+}
+
+.courses {
+  margin-right: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 5px;
+  color: #333;
+}
+
+.icon-chevron-down {
+  width: 15px;
+  height: 15px;
+}
+
+.log-in {
+  margin-right: 15px;
+  cursor: pointer;
+  color: #333;
+}
+
+.primary-button {
+  padding: 10px 20px;
+  background-color: #0096FF;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.text3 {
+  color: #fff;
+}
+
+/* Media query for responsive behavior */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .left-content {
+    margin-top: 10px;
+    margin-right: 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+
+/*body background*/
+.back-ground-icon {
+  position: absolute;
+  top: 67px;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.body-left-content{
+  margin: 120px;
+  margin-left: 80px;
+  border-color: red;
+  background-color: sky;
+}
+
+
+.payment-main{
+  width: 300px;
+  height: 400px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* MainLockup.module.css */
+.mainLockup {
+  margin-top: -80px;
+  position:relative;
+  width: 626px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  text-align: left;
+  font-size: 24px;
+  color: #fff;
+  font-family: Roboto;
+}
+.accessCuratedCoursesWorthWrapper{
+  font-size: 24px;
+  color: white;
+}
+.accessCuratedCourses1{
+  font-size: 52px;
+}
+.parent{
+  display: flex;
+  gap:4px;
+  font-size: 54px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
 }
+
+.pointer1 {
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  color: #0096ff;
+}
+
+
+.iconChild {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+.textContainer6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-item {
+  position: relative;
+  letter-spacing: 0.0em;
+  font-size: 25px;
+  line-height: 100%;
+}
+
+.span {
+  font-weight: 600;
+}
+
+.jobRelevantCourses {
+  color: #fff;
+}
+
+.span1 {
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+
+.icon1{
+   width: 68px;
+  height: 68px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.iconChild1{
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+
+
+.iconChild2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 30.67px;
+  height: 30.63px;
+}
+
+.live {
+  position: absolute;
+  top: 13.29px;
+  left: 3.37px;
+  line-height: 100%;
+  font-size: 15px;
+}
+
+.vectorParent {
+  position: relative;
+  width: 60.67px;
+  height: 60.63px;
+}
+
+.icon2 {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-left: 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #0096ff;
+  font-family: Roboto;
+}
+
+.pointer3 {
+  align-self: stretch;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  font-size: 22px;
+  font-family: Nunito;
+}
+
+.main-item1{
+  position: relative;
+  margin-top: -15px;
+  letter-spacing: 0.03em;
+  font-size: 25px;
+  line-height: 100%;
+}
+
+
+.main-item2{
+  position: relative;
+  margin-top: -15px;
+  letter-spacing: 0.03em;
+  font-size: 25px;
+  line-height: 100%;
+}
+
+
+
+/* Pointer5.module.css */
+
+.pointer5 {
+  align-self: stretch;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  font-size: 18px;
+  font-family: Nunito;
+}
+
+.icon {
+  width: 68px;
+  height: 68px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.vectorParent {
+  position: relative;
+  width: 57.63px;
+  height: 57.63px;
+}
+
+.vectorIcon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 35.63px;
+  height: 35.63px;
+}
+
+.ads {
+  position: absolute;
+  top: 12.77px;
+  left: 5.77px;
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  font-size: 12px;
+}
+
+.groupChild {
+  position: absolute;
+  top: 4.77px;
+  left: 30.37px;
+  border-radius: 16px;
+  background-color: #fff;
+  width: 4px;
+  height: 37px;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+}
+
+.textContainer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.text1 {
+  margin-top: -17px;
+  margin-left: -30px;
+  position: relative;
+  letter-spacing: 0.03em;
+  font-size: 25px;
+  line-height: 100%;
+}
+
+.adFree {
+
+  font-weight: 600;
+}
+
+.learningExperience {
+  color: #fff;
+}
+
+
+.spann{
+  color: #0096ff;
+  font-weight: bold;
+} 
